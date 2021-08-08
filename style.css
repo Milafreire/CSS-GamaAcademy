@@ -46,10 +46,28 @@ a {
 
 .form input{
     width: 50%;
+    padding: 3px 10px;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
 }
 
 .form button{
     width: 15%;
+    padding: 4px 10px;
+    background-color:#4f8367;
+    color: #ffff;
+    font-weight: 450;
+    border: none;
+    cursor: pointer;
+    transition: 300ms;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 20px;
+    
+}
+.form button:hover{
+    background-color: rgb(209, 141, 178);
+    color: rgb(173, 233, 188);
+
 }
 
 body {
